@@ -19,7 +19,7 @@ function updateNumbers() {
     var beginTime = "2019-3-12 00:00:00";  
     var start_time = Date.parse(beginTime)
    // var start_time =  new Date("2014-11-11 10:10:10").Format("yyyy-MM-dd hh:mm:ss");
-    var duration = parseInt(Date.now()- start_time)/1000;
+    var duration = parseInt(Date.now())/1000;
 
     var seconds = parseInt( duration % 60);
     if (seconds < 10)
